@@ -12,4 +12,4 @@ after_script:
 # E: Build LifeCycle
 branches:
   only:
-    - blog-source
+    - master
