@@ -3,6 +3,11 @@ node_js: stable
 cache:
   directories:
     - "node_modules"
+notifications:
+  email:
+    - w@dannyge.com
+    on_success: change
+    on_failure: always
 # S: Build Lifecycle
 install:
   - npm install
