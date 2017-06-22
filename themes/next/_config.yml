@@ -318,8 +318,8 @@ disqus:
 #hypercomments_id:
 
 # Gentie productKey
-gentie_productKey: #your-gentie-product-key
-#gentie_productKey: 8a94308527cf4bf499d7a3378d911576
+#gentie_productKey: #your-gentie-product-key
+gentie_productKey: 8a94308527cf4bf499d7a3378d911576
 
 # changyan
 changyan:
@@ -337,13 +337,13 @@ changyan:
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
-gitment:
-  enable: true
-  githubID: dannyge
-  repo: hexo
-  ClientID: a0091b88e49844430461
-  ClientSecret: c9c201de96857006b3d7172454c8f8e038f26258
-  lazy: false
+#gitment:
+# enable: true
+# githubID: dannyge
+# repo: hexo
+# ClientID: a0091b88e49844430461
+# ClientSecret: c9c201de96857006b3d7172454c8f8e038f26258
+# lazy: false
   
 # Baidu Share
 # Available value:
