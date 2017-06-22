@@ -8,8 +8,7 @@ install:
 script:
   - hexo generate
 after_script:
-  - ls 
-  - cd .deploy_git
+  - cd ./public
   - git init
   - git config user.name "Dannyge"
   - git config user.email "gezhenying@gmail.com"
