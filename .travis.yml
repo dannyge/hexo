@@ -8,8 +8,17 @@ install:
 script:
   - hexo generate
 after_script:
-  - hexo d
+  - cd ./public
+  - git init
+  - git config user.name "Dannyge"
+  - git config user.email "gezhenying@gmail.com"
+  - git add .
+  - git commit -m "Update - auto deploy by Travis CI."
+  - git push --force --quiet "https://${GH_TOKEN}@${GITHUB_REF}" master:master
 # E: Build LifeCycle
 branches:
   only:
     - master
+env:
+  global:
+    - GITHUB_REF: github.com/dannyge/dannyge.github.io.git
