@@ -10,8 +10,7 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "Dannyge"
-  - git config user.email "gezhenying@gmail.com"
+  - git config user.name "gezhenying@gmail.com"
   - git add .
   - git commit -m "Update - auto deploy by Travis CI."
   - git push --force --quiet "https://${GH_TOKEN}@${GITHUB_REF}" master:master
