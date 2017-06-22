@@ -83,6 +83,6 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/dannyge/dannyge.github.io.git
+  repo: https://GH_TK@github.com/dannyge/dannyge.github.io.git
   branch: master
 
