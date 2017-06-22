@@ -3,17 +3,20 @@ node_js: stable
 # S: Build Lifecycle
 install:
   - npm install
-#before_script:
+before_script:
  # - npm install -g gulp
+  - git clone 
+  - git config user.name "gezhenying@gmail.com"
 script:
+  - git clone https://${GH_TOKEN}@${GITHUB_REF} .deploy_git
   - hexo generate
 after_script:
-  - cd ./public
-  - git init
-  - git config user.name "gezhenying@gmail.com"
-  - git add .
-  - git commit -m "Update - auto deploy by Travis CI."
-  - git push --force --quiet "https://${GH_TOKEN}@${GITHUB_REF}" master:master
+ # - cd ./public
+ # - git init
+ # - git add .
+ # - git commit -m "Update - auto deploy by Travis CI."
+ # - git push --force --quiet "https://${GH_TOKEN}@${GITHUB_REF}" master:master
+  - hexo d
 # E: Build LifeCycle
 branches:
   only:
