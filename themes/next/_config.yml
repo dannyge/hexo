@@ -334,6 +334,16 @@ changyan:
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 #livere_uid: your uid
 
+# Gitment
+# Introduction: https://imsun.net/posts/gitment-introduction/
+gitment:
+  enable: true
+  githubID: gezhenying@gmail.com
+  repo: hexo
+  ClientID: a0091b88e49844430461
+  ClientSecret: c9c201de96857006b3d7172454c8f8e038f26258
+  lazy: false
+  
 # Baidu Share
 # Available value:
 #    button | slide
