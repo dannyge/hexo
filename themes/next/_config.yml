@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Hexo, NexT,Docker,K8S,IT,Java,Mac"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -318,6 +318,7 @@ disqus:
 #hypercomments_id:
 
 # Gentie productKey
+#gentie_productKey: #your-gentie-product-key
 gentie_productKey: 8a94308527cf4bf499d7a3378d911576
 
 # changyan
@@ -338,7 +339,7 @@ changyan:
 # Introduction: https://imsun.net/posts/gitment-introduction/
 gitment:
   enable: true
-  githubID: gezhenying@gmail.com
+  githubID: dannyge
   repo: hexo
   ClientID: a0091b88e49844430461
   ClientSecret: c9c201de96857006b3d7172454c8f8e038f26258
