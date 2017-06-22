@@ -10,12 +10,12 @@ script:
   - git clone https://${GH_TOKEN}@${GITHUB_REF} .deploy_git
   - hexo generate
 after_script:
- # - cd ./public
+  - cd .deploy_git
  # - git init
- # - git add .
- # - git commit -m "Update - auto deploy by Travis CI."
- # - git push --force --quiet "https://${GH_TOKEN}@${GITHUB_REF}" master:master
-  - hexo d
+  - git add .
+  - git commit -m "Update - auto deploy by Travis CI."
+  - git push --force --quiet "https://${GH_TOKEN}@${GITHUB_REF}" master:master
+ #- hexo d
 # E: Build LifeCycle
 branches:
   only:
