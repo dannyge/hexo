@@ -5,7 +5,7 @@ cache:
     - "node_modules"
 notifications:
   email:
-    - w@dannyge.com
+    recipients: w@dannyge.com
     on_success: change
     on_failure: always
 # S: Build Lifecycle
