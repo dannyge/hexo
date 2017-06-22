@@ -85,4 +85,5 @@ deploy:
   type: git
   repo: https://GH_TK@github.com/dannyge/dannyge.github.io.git
   branch: master
+  name: gezhenying@gmail.com
 
