@@ -10,6 +10,7 @@ script:
 after_script:
   - sed -i "s/GH_TK/${GH_TK}/g" _config.yml
   - git config --global user.name "gezhenying@gmail.com"
+  - git config --global user.email "gezhenying@gmail.com"
   - hexo d
 # E: Build LifeCycle
 branches:
