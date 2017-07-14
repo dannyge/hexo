@@ -143,6 +143,7 @@ font:
 social:
   GitHub: https://github.com/dannyge
   Weibo: http://weibo.com/gzydi
+  PMCAFF: http://www.pmcaff.com/user/profile/dannyge
 
 # Social Links Icons
 # Icon Mapping:
@@ -154,9 +155,8 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  Twitter: twitter
   Weibo: weibo
-
+  PMCAFF: PMCAFF
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
